@@ -5,6 +5,9 @@ package com.qisheng;
  */
 public class Test {
 
+    int x = 29;
+
+
     public static void main(String[] args) {
 
         System.out.println("hello");
