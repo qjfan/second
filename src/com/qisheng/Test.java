@@ -7,6 +7,10 @@ public class Test {
 
     int x = 29;
 
+    public int add(int x,int y) {
+
+        return x + y;
+    }
 
     public static void main(String[] args) {
 
