@@ -7,7 +7,7 @@ public class Test {
 
     int x = 29;
 
-    public int add(int x,int y) {
+    public static int add(int x,int y) {
 
         return x + y;
     }
@@ -15,6 +15,8 @@ public class Test {
     public static void main(String[] args) {
 
         System.out.println("hello");
+
+        add(2,9);
 
 
 
