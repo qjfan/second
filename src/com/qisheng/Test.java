@@ -5,7 +5,7 @@ package com.qisheng;
  */
 public class Test {
 
-    int x = 29;
+    private static  int x = 29;
 
     public static int add(int x,int y) {
 
@@ -18,7 +18,7 @@ public class Test {
 
         add(2,9);
 
-        i = i + 10;
+       x = x + 10;
 
     }
 
